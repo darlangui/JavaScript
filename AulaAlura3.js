@@ -14,7 +14,25 @@
 
     https://nodejs.org/api/errors.html#errors_errors --> documentação de erros.
 
-
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     
+Console.api --> ferramenta o log() é um registro que sera exibido no console
+    console.error() para exibir mensagens de erro;
+    console.table() para visualizar de forma mais organizada informações tabulares;
+    console.time() e console.timeEnd() para temporizar período que uma operação de código leva para ser iniciada e concluída;
+    console.trace() para exibir a stacktrace de todos os pontos (ou seja, os arquivos chamados) por onde o código executado passou durante a execução.
+    */
+    //console.error(new Error("Erro do console")); // utilizado no tratamento de erros.
+    /*
+    https://nodejs.org/api/console.html --> documentação de console
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Operadores -->
+    De comparação: ==  e ===.
+    ||: Operador “ou”, retorna true caso uma condição seja válida;
+    &&: Operador “e”, retorna true somente se todas as condições forem válidas;
+    != e !==: Operadores “não igual” e “estritamente não igual”, utilizados para comparação,
+    da mesma forma que == e === retornam true ou false.
+
+
 */
