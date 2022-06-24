@@ -19,4 +19,5 @@ console.log(objeto)
 objetoArray.dependentes.push({nome: 'Maria', parente:"Filha", idade: "2"})
 console.log(objetoArray)
 
-console.log(objetoArray.dependentes[1].nome)
+console.log(objetoArray.dependentes[1].nome) //mostra o valor da variavel da segunda posição do array dependentes selecionando somente o nome.
+
